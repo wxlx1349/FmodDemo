@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="fmod测试" />
+
+    <Button
+        android:id="@+id/voice_old"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="voice"
+        android:text="原声" />
+
+    <Button
+        android:id="@+id/voice_luoli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="voice"
+        android:text="萝莉" />
+
+    <Button
+        android:id="@+id/voice_dashu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="voice"
+        android:text="大叔" />
+
+    <Button
+        android:id="@+id/voice_jingsong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="voice"
+        android:text="惊悚" />
+
+    <Button
+        android:id="@+id/voice_gaoguai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="voice"
+        android:text="搞怪" />
+
+    <Button
+        android:id="@+id/voice_kongling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="voice"
+        android:text="空灵" />
+</LinearLayout>
